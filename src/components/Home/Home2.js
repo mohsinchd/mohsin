@@ -19,23 +19,32 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I'm a <span className="purple">Full-Stack MERN developer</span>{" "}
+              with a year of hands-on experience, having contributed to 3+
+              extensive full-stack MERN projects. I offer 8+ hours of daily
+              availability.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              My proficiency encompasses{" "}
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple">
+                  React/Next.js, Redux.js, Typescript, Node.js, Express.js,
+                  MongoDB/MySQL, and Firebase.
+                </b>
               </i>
+              <br />
+              <br />
+              In addition to these technical skills, I excel in third-party
+              integrations, spanning Payment Gateways (Stripe, Paypal,
+              Razorpay), Authentication (Auth0), Social Media Integration, and
+              Google Maps.
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
+                <b className="purple">Web Technologies and Products </b>
+              </i>{" "}
+              and also in areas related to <b className="purple">DevOps.</b>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
@@ -52,6 +61,7 @@ function Home2() {
               </i>
             </p>
           </Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
@@ -67,7 +77,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/mohsinchd"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,32 +87,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/mohsin-shoaib-81bb441a4/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>
